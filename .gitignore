@@ -1,0 +1,23 @@
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Frontend
+node_modules/
+dist/
+build/
+.env*
+.DS_Store
+
+# Backend (Java / Spring Boot)
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar

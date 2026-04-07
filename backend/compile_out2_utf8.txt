@@ -1,0 +1,50 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.courtroom:simulation >----------------------
+[INFO] Building simulation 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ simulation ---
+[INFO] Deleting C:\Users\asus\Desktop\Main project\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ simulation ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ simulation ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 14 source files with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/asus/Desktop/Main project/backend/src/main/java/com/courtroom/simulation/security/WebSecurityConfig.java:[33,50] constructor DaoAuthenticationProvider in class org.springframework.security.authentication.dao.DaoAuthenticationProvider cannot be applied to given types;
+  required: org.springframework.security.core.userdetails.UserDetailsService
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/asus/Desktop/Main project/backend/src/main/java/com/courtroom/simulation/security/WebSecurityConfig.java:[35,21] cannot find symbol
+  symbol:   method setUserDetailsService(com.courtroom.simulation.security.UserDetailsServiceImpl)
+  location: variable authProvider of type org.springframework.security.authentication.dao.DaoAuthenticationProvider
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.837 s
+[INFO] Finished at: 2026-04-08T00:22:57+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project simulation: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/asus/Desktop/Main project/backend/src/main/java/com/courtroom/simulation/security/WebSecurityConfig.java:[33,50] constructor DaoAuthenticationProvider in class org.springframework.security.authentication.dao.DaoAuthenticationProvider cannot be applied to given types;
+[ERROR]   required: org.springframework.security.core.userdetails.UserDetailsService
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/asus/Desktop/Main project/backend/src/main/java/com/courtroom/simulation/security/WebSecurityConfig.java:[35,21] cannot find symbol
+[ERROR]   symbol:   method setUserDetailsService(com.courtroom.simulation.security.UserDetailsServiceImpl)
+[ERROR]   location: variable authProvider of type org.springframework.security.authentication.dao.DaoAuthenticationProvider
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
