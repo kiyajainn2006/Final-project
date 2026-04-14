@@ -8,7 +8,7 @@
   "build": "vite build",
   "preview": "vite preview",
   "start": "node app.js"
-}
+},
   "dependencies": {
     "@stomp/stompjs": "^7.3.0",
     "@tailwindcss/vite": "^4.2.2",
