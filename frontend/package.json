@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "start": "node index.js"
   },
   "dependencies": {
     "@stomp/stompjs": "^7.3.0",
